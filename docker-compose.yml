@@ -1,0 +1,18 @@
+services:
+  paygate:
+    build: .
+    image: iran-payment-proxy:1.0.0
+    container_name: paygate
+    restart: unless-stopped
+    environment:
+      PORT: 3000
+    networks:
+      internal:
+      nginx_web:
+        aliases:
+          - paygate.local
+
+networks:
+  internal:
+  nginx_web:
+    external: true
