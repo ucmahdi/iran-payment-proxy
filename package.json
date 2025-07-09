@@ -1,0 +1,41 @@
+{
+  "name": "iran-payment-proxy",
+  "version": "1.0.0",
+  "description": "Reverse proxy server for Iranian payment gateways like Zarinpal, Zibal, and Vandar with support for host-based redirection, CORS, and graceful shutdown.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "proxy",
+    "reverse-proxy",
+    "payment",
+    "gateway",
+    "iran",
+    "zarinpal",
+    "zibal",
+    "vandar",
+    "cors",
+    "nodejs",
+    "http-proxy",
+    "payment-gateway",
+    "iran-payment"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ucmahdi/iran-payment-proxy.git"
+  },
+  "homepage": "https://github.com/ucmahdi/iran-payment-proxy",
+  "bugs": {
+    "url": "https://github.com/ucmahdi/iran-payment-proxy/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
